@@ -6,15 +6,6 @@ const Home = () => {
     <>
       <div className="tokyo_tm_home">
         <div className="home_content">
-          <div className="avatar">
-            <div
-              className="image avatar_img"
-              style={{
-                backgroundImage: "url(assets/img/slider/1.jpg)",
-              }}
-            ></div>
-            {/* END AVATAR IMAGE */}
-          </div>
           {/* END AVATAR */}
           <div className="details">
             <h3 className="name">Cristian Velasquez</h3>

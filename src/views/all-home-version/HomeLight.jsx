@@ -42,17 +42,9 @@ const HomeLight = () => {
                     <img
                       className="svg"
                       src="/assets/img/svg/briefcase.svg"
-                      alt="briefcase"
-                    />
-                    <span className="menu_content">Portfolio</span>
-                  </Tab>
-                  <Tab>
-                    <img
-                      className="svg"
-                      src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
-                    <span className="menu_content">News</span>
+                    <span className="menu_content">Portfolio</span>
                   </Tab>
                   <Tab>
                     <img
@@ -65,20 +57,6 @@ const HomeLight = () => {
                 </ul>
               </div>
               {/* END MENU */}
-
-              <div className="copyright">
-                <p>
-                  &copy; {new Date().getFullYear()} Tokyo <br /> Created by
-                  <a
-                    href="https://themeforest.net/user/ib-themes"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Ib-Themes
-                  </a>
-                </p>
-              </div>
-              {/* END COPYRIGHT */}
             </div>
           </div>
           {/* END LEFT MENU CONTENT */}
@@ -107,11 +85,6 @@ const HomeLight = () => {
                   </div>
                 </TabPanel>
                 {/* END ABOUT MENU TAB CONTENT */}
-
-                <TabPanel>
-                  <Portfolio />
-                </TabPanel>
-                {/* END PORTFOLIO MENU TAB CONTENT */}
 
                 <TabPanel>
                   <News />
